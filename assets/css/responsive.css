@@ -1,0 +1,27 @@
+/*on pc*/
+@media (min-width:1024px) {
+
+}
+/*on tablet */
+@media (min-width:740px) and (max-width:1023px){
+
+}
+/*on mobile*/
+@media (max-width:739px){
+    #nav {
+        display: none;
+    }
+    #nav-mobile {
+        list-style: none;
+        background-color: #000;
+    }
+    #nav-mobile li a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 16px 0;
+    }
+    #nav-mobile .subnav-mobile {
+        display: none;
+    }
+}
